@@ -19,7 +19,7 @@ export default function About() {
       <div className="mt-10 grid md:grid-cols-2 grid-cols-1 gap-8 items-center">
         <div className="flex justify-center">
           <Image
-            src="/images/mental-health.jpg"
+            src="/images/mental-health-about-page.jpg"
             alt="Mental Health Illustration"
             width={500}
             height={300}
@@ -54,7 +54,7 @@ export default function About() {
         </div>
         <div className="flex justify-center order-1 md:order-2">
           <Image
-            src="/images/self-care.jpg"
+            src="/images/self-care-about-page.jpg"
             alt="Self-Care Illustration"
             width={500}
             height={300}
@@ -67,7 +67,7 @@ export default function About() {
       <div className="mt-12 grid md:grid-cols-2 grid-cols-1 gap-8 items-center">
         <div className="flex justify-center">
           <Image
-            src="/images/community.jpg"
+            src="/images/community-about-page.jpg"
             alt="Community Illustration"
             width={500}
             height={300}

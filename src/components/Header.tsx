@@ -25,14 +25,15 @@ function Header() {
                 Home
               </Link>
             </li>
-            <li>
-              <Link className="hover:text-[#4CAF50]" href={"/blog"}>
-                Blogs
-              </Link>
-            </li>
+
             <li>
               <Link className="hover:text-[#4CAF50]" href={"/about"}>
                 About
+              </Link>
+            </li>
+            <li>
+              <Link className="hover:text-[#4CAF50]" href={"/blog"}>
+                Blogs
               </Link>
             </li>
             <li>
@@ -54,14 +55,15 @@ function Header() {
                     Home
                   </Link>
                 </li>
-                <li>
-                  <Link className="text-white hover:underline" href={"/blog"}>
-                    Blogs
-                  </Link>
-                </li>
+
                 <li>
                   <Link className="text-white hover:underline" href={"/about"}>
                     About
+                  </Link>
+                </li>
+                <li>
+                  <Link className="text-white hover:underline" href={"/blog"}>
+                    Blogs
                   </Link>
                 </li>
                 <li>
